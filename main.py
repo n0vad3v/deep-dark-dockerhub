@@ -30,7 +30,7 @@ if __name__ == '__main__':
             "tags": {
                 "host": INFLUXDB_TAG,
             },
-            "time": str(datetime.datetime.utcnow().strftime("%Y-%m-%dT%I:%M:%SZ")),
+            "time": str(datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")),
             "fields": {
                 "remain": remain,
             }
